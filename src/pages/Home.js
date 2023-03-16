@@ -68,66 +68,66 @@ class Home extends React.Component {
                   <div className="menuSelection1 container-md">
                   <Container>
                         <Row>
-                              <Col className="menuCategory"><strong><u>APPETIZERS</u></strong></Col>
+                              <Col xl={5} className="menuCategory"><strong><u>APPETIZERS</u></strong></Col>
                               <Col></Col>
-                              <Col className="menuCategory"><strong><u>SOUPS & SALADS</u></strong></Col>
+                              <Col xl={5} className="menuCategory"><strong><u>SOUPS & SALADS</u></strong></Col>
                               <Col></Col>
                         </Row>
 
                         <Row>
-                              <Col>PASTRY BOARD</Col>
+                              <Col xl={5} className="menuItem">PASTRY BOARD</Col>
                               <Col>15</Col>
-                              <Col>CAESAR</Col>
+                              <Col xl={5} className="menuItem">CAESAR</Col>
                               <Col>5</Col>
                         </Row>
                         
                         <Row>
-                              <Col>assortment of danishes, cinnamon rolls, baklava, muffins, and canolies</Col>
+                              <Col xl={4} className="itemDescription">assortment of danishes, cinnamon rolls, baklava, muffins, and canolies</Col>
                               <Col></Col>
-                              <Col>romaine lettuce, garlic croutons, and a creamy dressing</Col>
+                              <Col xl={4} className="itemDescription">romaine lettuce, garlic croutons, and a creamy dressing</Col>
                               <Col></Col>
                         </Row>
 
                         <Row>
-                              <Col>SEASONED FRIES</Col>
+                              <Col xl={5} className="menuItem">SEASONED FRIES</Col>
                               <Col>8</Col>
-                              <Col>COBB</Col>
+                              <Col xl={5} className="menuItem">COBB</Col>
                               <Col>5</Col>
                         </Row>
 
                         <Row>
-                              <Col>spicy cajun-seasoned steak fries</Col>
+                              <Col xl={4} className="itemDescription">spicy cajun-seasoned steak fries</Col>
                               <Col></Col>
-                              <Col>romaine lettuce, crumbled blue cheese, chicken, and bacon</Col>
+                              <Col xl={4} className="itemDescription">romaine lettuce, crumbled blue cheese, chicken, and bacon</Col>
                               <Col></Col>
                         </Row>
 
                         <Row>
-                              <Col>WAFFLE BOARD</Col>
+                              <Col xl={5} className="menuItem">WAFFLE BOARD</Col>
                               <Col>20</Col>
-                              <Col>SOUTHWESTERN</Col>
+                              <Col xl={5} className="menuItem">SOUTHWESTERN</Col>
                               <Col>6</Col>
                         </Row>
 
                         <Row>
-                              <Col>combination of belgian, potato,
+                              <Col xl={4} className="itemDescription">combination of belgian, potato,
                               bubble, and egg waffles</Col>
                               <Col></Col>
-                              <Col>corn, black beans, tortilla strips, and a creamy southwest dressing</Col>
+                              <Col xl={4} className="itemDescription">corn, black beans, tortilla strips, and a creamy southwest dressing</Col>
                               <Col></Col>
                         </Row>
 
                         <Row>
-                              <Col>CHEESE BOARD</Col>
+                              <Col xl={5} className="menuItem">CHEESE BOARD</Col>
                               <Col>15</Col>
-                              <Col>SOUP OF THE DAY</Col>
+                              <Col xl={5} className="menuItem">SOUP OF THE DAY</Col>
                               <Col>7</Col>
                         </Row>
 
                         <Row>
-                              <Col>charcuterie of seasonal cheeses, sliced meats, pickled vegetables, and fresh fruit</Col>
+                              <Col xl={4} className="itemDescription">charcuterie of seasonal cheeses, sliced meats, pickled vegetables, and fresh fruit</Col>
                               <Col></Col>
-                              <Col>tomato, french onion, tortilla, or
+                              <Col xl={4} className="itemDescription">tomato, french onion, tortilla, or
                               seasonal choice</Col>
                               <Col></Col>
                         </Row>
@@ -139,9 +139,9 @@ class Home extends React.Component {
                   <div className="menuSelection2 container-md">
                   <Container>
                         <Row>
-                              <Col className="menuCategory"><strong><u>SANDWICHES</u></strong></Col>
+                              <Col xl={5} className="menuCategory"><strong><u>SANDWICHES</u></strong></Col>
                               <Col></Col>
-                              <Col className="menuCategory"><strong><u>ENTREES</u></strong></Col>
+                              <Col xl={5} className="menuCategory"><strong><u>ENTREES</u></strong></Col>
                               <Col></Col>
                         </Row>
 
@@ -229,9 +229,9 @@ class Home extends React.Component {
                   <div className="menuSelection3 container-md">
                   <Container>
                         <Row>
-                              <Col className="menuCategory"><strong><u>DESSERTS</u></strong></Col>
+                              <Col xl={5} className="menuCategory"><strong><u>DESSERTS</u></strong></Col>
                               <Col></Col>
-                              <Col className="menuCategory"><strong><u>DRINKS</u></strong></Col>
+                              <Col xl={5} className="menuCategory"><strong><u>DRINKS</u></strong></Col>
                               <Col></Col>
                         </Row>
 
