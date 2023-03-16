@@ -1,17 +1,8 @@
 // imports 
 @import "./variables";
 
-//sets Lulo Clean One font --> headers
-@font-face {
-    font-family: "Lulo Clean One";
-    src: url("./fonts/lulo-clean-one.ttf") format("truetype");
-}
 
-//sets Avenir LT STD font --> paragraphs
-@font-face {
-    font-family: 'Avenir LT Std', sans-serif;
-    src: url('https://fonts.cdnfonts.com/css/avenir-lt-std');
-}
+// HEADER
 
 .header {
     font-family: "Lulo Clean One", sans-serif;
@@ -33,6 +24,10 @@
     color: black;
 }
 
+
+
+//MENU
+
 .menuHero {
     width: 100%;
     height: 700px;
@@ -41,9 +36,33 @@
     background-size: cover;
 }
 
+.menuHeader {
+    font-family: 'Avenir LT Std', sans-serif;
+}
+
+.menuOpener {
+    margin: 0;
+    font-size: 25px;
+    text-indent: 2rem;
+    text-justify: auto;
+    padding: 40px;
+}
+
+.pageHeader {
+    font-family: "Lulo Clean Outline", sans-serif;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.dailyTimes {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
 .menuSelection1 {
     background-color: #D9981E;
     font-family: 'Avenir LT Std', sans-serif;
+    font-size: 20px;
     border-radius: 10px;
     padding: 30px;
 }
@@ -51,6 +70,7 @@
 .menuSelection2 {
     background-color: #F28B0C;
     font-family: 'Avenir LT Std', sans-serif;
+    font-size: 20px;
     border-radius: 10px;
     padding: 30px;
 }
@@ -58,6 +78,13 @@
 .menuSelection3 {
     background-color: #BF7960;
     font-family: 'Avenir LT Std', sans-serif;
+    font-size: 20px;
     border-radius: 10px;
     padding: 30px;
+}
+
+.menuCategory {
+    font-family: "Lulo Clean Bold", sans-serif;
+    font-size: 30px;
+    padding-bottom: 40px;
 }

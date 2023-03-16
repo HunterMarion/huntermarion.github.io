@@ -9,11 +9,12 @@ class Home extends React.Component {
                   <>
                   <div className='menuHero'></div>
               
-                  <p><strong>Morning Snack</strong> is a full-service, comfort-focused brunch restaurant situated in
-                  the heart of Dallas. Enjoy breakfast, lunch, or in-between inside a renovated
-                  Uptown bodega bathed in natural light. Our menu focuses on fresh, locallysourced
-                  ingredients; our delicious bread is baked in-house every morning
-                  before opening; and our famous mimosas are always available.</p>
+                        <p className="menuOpener text-center justify-content-center"><strong>Morning Snack</strong> is a full-service, comfort-focused brunch restaurant situated in
+                        the heart of Dallas. Enjoy breakfast, lunch, or in-between inside a renovated
+                        Uptown bodega bathed in natural light. Our menu focuses on fresh, locally sourced
+                        ingredients; our delicious bread is baked in-house every morning
+                        before opening; and our famous mimosas are always available.</p>
+
 
                   {/*<div class="row">
                         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
@@ -60,16 +61,16 @@ class Home extends React.Component {
           </div>*/}
 
 
-                  <h1>BRUNCH MENU</h1>
+                  <h1 className="pageHeader text-center">BRUNCH MENU</h1>
 
-                  <p>DAILY 11 AM - 5 PM</p>
+                  <p className="dailyTimes text-center"><strong>DAILY 11 AM - 5 PM</strong></p>
 
                   <div className="menuSelection1 container-md">
                   <Container>
                         <Row>
-                              <Col><strong><u>APPETIZERS</u></strong></Col>
+                              <Col className="menuCategory"><strong><u>APPETIZERS</u></strong></Col>
                               <Col></Col>
-                              <Col><strong><u>SOUPS & SALADS</u></strong></Col>
+                              <Col className="menuCategory"><strong><u>SOUPS & SALADS</u></strong></Col>
                               <Col></Col>
                         </Row>
 
@@ -138,9 +139,9 @@ class Home extends React.Component {
                   <div className="menuSelection2 container-md">
                   <Container>
                         <Row>
-                              <Col><strong><u>SANDWICHES</u></strong></Col>
+                              <Col className="menuCategory"><strong><u>SANDWICHES</u></strong></Col>
                               <Col></Col>
-                              <Col><strong><u>ENTREES</u></strong></Col>
+                              <Col className="menuCategory"><strong><u>ENTREES</u></strong></Col>
                               <Col></Col>
                         </Row>
 
@@ -228,9 +229,9 @@ class Home extends React.Component {
                   <div className="menuSelection3 container-md">
                   <Container>
                         <Row>
-                              <Col><strong><u>DESSERTS</u></strong></Col>
+                              <Col className="menuCategory"><strong><u>DESSERTS</u></strong></Col>
                               <Col></Col>
-                              <Col><strong><u>DRINKS</u></strong></Col>
+                              <Col className="menuCategory"><strong><u>DRINKS</u></strong></Col>
                               <Col></Col>
                         </Row>
 
