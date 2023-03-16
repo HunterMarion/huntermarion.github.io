@@ -1,4 +1,6 @@
 import React from 'react';
+import { Container, Col, Row } from 'react-bootstrap';
+
 
 class Home extends React.Component {
 
@@ -6,61 +8,313 @@ class Home extends React.Component {
           return (
                   <>
                   <div className='menuHero'></div>
-
-                  <h1>WELCOME</h1>
               
-                  <p>This is morning snack's home page</p>
+                  <p><strong>Morning Snack</strong> is a full-service, comfort-focused brunch restaurant situated in
+                  the heart of Dallas. Enjoy breakfast, lunch, or in-between inside a renovated
+                  Uptown bodega bathed in natural light. Our menu focuses on fresh, locallysourced
+                  ingredients; our delicious bread is baked in-house every morning
+                  before opening; and our famous mimosas are always available.</p>
 
-                  <h2>Appetizers:</h2>
-                  <ul>
-                        <li>Pastry Board ($12.00)</li>
-                        <li>Seasoned Fries ($8.00)</li>
-                        <li>Waffle Board ($20.00)</li>
-                        <li>Cheese Board ($11.00)</li>
-                  </ul>
+                  {/*<div class="row">
+                        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                              <img
+                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                    alt="Boat on Calm Water"
+                              />
 
-                  <h2>Soups & Salads:</h2>
-                  <ul>
-                        <li>Caesar ($5.00)</li>
-                        <li>Cobb ($5.00)</li>
-                        <li>Southwestern ($6.00) </li>
-                        <li>Soup of the Day (Tomato, French Onion, or Tortilla) [Prices are subject to change]</li>
-                  </ul>
+                              <img
+                                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                    alt="Wintry Mountain Landscape"
+                              />
+                        </div>
 
-                  <h2>Sandwiches:</h2>
-                  <ul>
-                        <li>BLT ($13.00)</li>
-                        <li>Grilled Cheese (add a protein: Chicken, Steak, or Bacon) [Prices are subject to change]</li>
-                        <li>Breakfast Bagel ($7.00)</li>
-                        <li>Veggie Sandwich ($10.00)</li>
-                  </ul>
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                              <img
+                                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                    alt="Mountains in the Clouds"
+                              />
 
-                  <h2>Entrees:</h2>
-                  <ul>
-                        <li>French Toast ($14.00)</li>
-                        <li>Pancakes ($16.00)</li>
-                        <li>Eggs Benedicts ($15.00)</li>
-                        <li>Bowls (Poke or Fruit) [Prices are subject to change]</li>
-                        <li>Salmon ($25.00)</li>
-                        <li>Burger ($18.00)</li>
-                  </ul>
-              
-                  <h2>Desserts:</h2>
-                  <ul>
-                        <li>Cheesecake ($7.00)</li>
-                        <li>Cinnamon Rolls ($9.00)</li>
-                        <li>Sundae ($8.00)</li>
-                  </ul>
+                              <img
+                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                    alt="Boat on Calm Water"
+                              />
+                        </div>
 
-                  <h2>Drinks:</h2>
-                  <ul>
-                        <li>Coffee ($2.00)</li>
-                        <li>Fruit Juice (Orange, Apple, or Cocktail) ($3.00)</li>
-                        <li>Mimosas ($8.00)</li>
-                        <li>Bloody Marys ($8.00)</li>
-                        <li>Fountain Drinks ($2.00)</li>
-                        <li>Tea ($2.00)</li>
-                  </ul>
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                              <img
+                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                    alt="Waves at Sea"
+                              />
+
+                              <img
+                                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                    alt="Yosemite National Park"
+                              />
+                        </div>
+          </div>*/}
+
+
+                  <h1>BRUNCH MENU</h1>
+
+                  <p>DAILY 11 AM - 5 PM</p>
+
+                  <div className="menuSelection1 container-md">
+                  <Container>
+                        <Row>
+                              <Col><strong><u>APPETIZERS</u></strong></Col>
+                              <Col></Col>
+                              <Col><strong><u>SOUPS & SALADS</u></strong></Col>
+                              <Col></Col>
+                        </Row>
+
+                        <Row>
+                              <Col>PASTRY BOARD</Col>
+                              <Col>15</Col>
+                              <Col>CAESAR</Col>
+                              <Col>5</Col>
+                        </Row>
+                        
+                        <Row>
+                              <Col>assortment of danishes, cinnamon rolls, baklava, muffins, and canolies</Col>
+                              <Col></Col>
+                              <Col>romaine lettuce, garlic croutons, and a creamy dressing</Col>
+                              <Col></Col>
+                        </Row>
+
+                        <Row>
+                              <Col>SEASONED FRIES</Col>
+                              <Col>8</Col>
+                              <Col>COBB</Col>
+                              <Col>5</Col>
+                        </Row>
+
+                        <Row>
+                              <Col>spicy cajun-seasoned steak fries</Col>
+                              <Col></Col>
+                              <Col>romaine lettuce, crumbled blue cheese, chicken, and bacon</Col>
+                              <Col></Col>
+                        </Row>
+
+                        <Row>
+                              <Col>WAFFLE BOARD</Col>
+                              <Col>20</Col>
+                              <Col>SOUTHWESTERN</Col>
+                              <Col>6</Col>
+                        </Row>
+
+                        <Row>
+                              <Col>combination of belgian, potato,
+                              bubble, and egg waffles</Col>
+                              <Col></Col>
+                              <Col>corn, black beans, tortilla strips, and a creamy southwest dressing</Col>
+                              <Col></Col>
+                        </Row>
+
+                        <Row>
+                              <Col>CHEESE BOARD</Col>
+                              <Col>15</Col>
+                              <Col>SOUP OF THE DAY</Col>
+                              <Col>7</Col>
+                        </Row>
+
+                        <Row>
+                              <Col>charcuterie of seasonal cheeses, sliced meats, pickled vegetables, and fresh fruit</Col>
+                              <Col></Col>
+                              <Col>tomato, french onion, tortilla, or
+                              seasonal choice</Col>
+                              <Col></Col>
+                        </Row>
+                  </Container>
+                  </div>
+
+                  <hr></hr>
+
+                  <div className="menuSelection2 container-md">
+                  <Container>
+                        <Row>
+                              <Col><strong><u>SANDWICHES</u></strong></Col>
+                              <Col></Col>
+                              <Col><strong><u>ENTREES</u></strong></Col>
+                              <Col></Col>
+                        </Row>
+
+                        <Row>
+                              <Col>BLT</Col>
+                              <Col>13</Col>
+                              <Col>FRENCH TOAST</Col>
+                              <Col>14</Col>
+                        </Row>
+                        
+                        <Row>
+                              <Col>...</Col>
+                              <Col></Col>
+                              <Col>...</Col>
+                              <Col></Col>
+                        </Row>
+
+                        <Row>
+                              <Col>GRILLED CHEESE</Col>
+                              <Col>10</Col>
+                              <Col>PANCAKES</Col>
+                              <Col>16</Col>
+                        </Row>
+
+                        <Row>
+                              <Col>...</Col>
+                              <Col></Col>
+                              <Col>...</Col>
+                              <Col></Col>
+                        </Row>
+
+                        <Row>
+                              <Col>BREAKFAST BAGEL</Col>
+                              <Col>9</Col>
+                              <Col>EGGS BENEDICT</Col>
+                              <Col>15</Col>
+                        </Row>
+
+                        <Row>
+                              <Col>...</Col>
+                              <Col></Col>
+                              <Col>...</Col>
+                              <Col></Col>
+                        </Row>
+
+                        <Row>
+                              <Col>VEGGIE</Col>
+                              <Col>10</Col>
+                              <Col>POKE BOWL</Col>
+                              <Col>17</Col>
+                        </Row>
+
+                        <Row>
+                              <Col>...</Col>
+                              <Col></Col>
+                              <Col>...</Col>
+                              <Col></Col>
+                        </Row>
+
+                        <Row>
+                              <Col></Col>
+                              <Col></Col>
+                              <Col>SALMON</Col>
+                              <Col>25</Col>
+                        </Row>
+
+                        <Row>
+                              <Col></Col>
+                              <Col></Col>
+                              <Col>...</Col>
+                              <Col></Col>
+                        </Row>
+
+                        <Row>
+                              <Col></Col>
+                              <Col></Col>
+                              <Col>BRUNCH BURGER</Col>
+                              <Col>15</Col>
+                        </Row>
+                  </Container>
+                  </div>
+
+                  <hr></hr>
+
+                  <div className="menuSelection3 container-md">
+                  <Container>
+                        <Row>
+                              <Col><strong><u>DESSERTS</u></strong></Col>
+                              <Col></Col>
+                              <Col><strong><u>DRINKS</u></strong></Col>
+                              <Col></Col>
+                        </Row>
+
+                        <Row>
+                              <Col>CHEESECAKE</Col>
+                              <Col>7</Col>
+                              <Col>COFFEE</Col>
+                              <Col>5</Col>
+                        </Row>
+                        
+                        <Row>
+                              <Col>...</Col>
+                              <Col></Col>
+                              <Col>...</Col>
+                              <Col></Col>
+                        </Row>
+
+                        <Row>
+                              <Col>CINNAMON ROLLS</Col>
+                              <Col>9</Col>
+                              <Col>TEA</Col>
+                              <Col>3</Col>
+                        </Row>
+
+                        <Row>
+                              <Col>...</Col>
+                              <Col></Col>
+                              <Col>...</Col>
+                              <Col></Col>
+                        </Row>
+
+                        <Row>
+                              <Col>SUNDAE</Col>
+                              <Col>8</Col>
+                              <Col>FRUIT JUICE</Col>
+                              <Col>3</Col>
+                        </Row>
+
+                        <Row>
+                              <Col>...</Col>
+                              <Col></Col>
+                              <Col>...</Col>
+                              <Col></Col>
+                        </Row>
+
+                        <Row>
+                              <Col></Col>
+                              <Col></Col>
+                              <Col>FOUNTAIN DRINK</Col>
+                              <Col>3</Col>
+                        </Row>
+
+                        <Row>
+                              <Col></Col>
+                              <Col></Col>
+                              <Col>...</Col>
+                              <Col></Col>
+                        </Row>
+
+                        <Row>
+                              <Col></Col>
+                              <Col></Col>
+                              <Col>MIMOSA</Col>
+                              <Col>8</Col>
+                        </Row>
+
+                        <Row>
+                              <Col></Col>
+                              <Col></Col>
+                              <Col>...</Col>
+                              <Col></Col>
+                        </Row>
+
+                        <Row>
+                              <Col></Col>
+                              <Col></Col>
+                              <Col>BLOODY MARY</Col>
+                              <Col>8</Col>
+                        </Row>
+                  </Container>
+                  </div>
+
+                  <hr></hr>
+
                   </>
             )  
      }

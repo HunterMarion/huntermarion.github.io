@@ -7,7 +7,7 @@ class Navigation extends React.Component {
      render() { 
           return ( 
                <>
-               <Nav className="justify-content-end" gap={5}>
+               <Nav className="justify-content-end mt-4 mb-4" gap={5}>
                     <NavItem>
                          <Nav.Link href="/">MENU</Nav.Link>
                     </NavItem>
@@ -21,7 +21,7 @@ class Navigation extends React.Component {
                          <NavLink href="/checkout">CHECKOUT</NavLink>
                     </NavItem>    
 
-                    <Button variant="light" href="/reservations">BOOK A RESERVATION</Button>           
+                    <Button variant="warning" className="reserveButton" href="/reservations">BOOK A RESERVATION</Button>           
                </Nav>
                </>
           )
