@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
+{/*import Masonry from 'react-masonry-component';*/}
 
 
 class Home extends React.Component {
@@ -9,57 +10,15 @@ class Home extends React.Component {
                   <>
                   <div className='menuHero'></div>
               
-                        <p className="menuOpener text-center justify-content-center"><strong>Morning Snack</strong> is a full-service, comfort-focused brunch restaurant situated in
+                        <p className="menuOpener text-center justify-content-center"><strong>Morning Snack</strong> 
+                        is a full-service, comfort-focused brunch restaurant situated in
                         the heart of Dallas. Enjoy breakfast, lunch, or in-between inside a renovated
                         Uptown bodega bathed in natural light. Our menu focuses on fresh, locally sourced
                         ingredients; our delicious bread is baked in-house every morning
                         before opening; and our famous mimosas are always available.</p>
 
-
-                  {/*<div class="row">
-                        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                              <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Boat on Calm Water"
-                              />
-
-                              <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Wintry Mountain Landscape"
-                              />
-                        </div>
-
-                        <div class="col-lg-4 mb-4 mb-lg-0">
-                              <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Mountains in the Clouds"
-                              />
-
-                              <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Boat on Calm Water"
-                              />
-                        </div>
-
-                        <div class="col-lg-4 mb-4 mb-lg-0">
-                              <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Waves at Sea"
-                              />
-
-                              <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Yosemite National Park"
-                              />
-                        </div>
-          </div>*/}
-
+                  {/*Add masonry image gallery here*/}
+            
 
                   <h1 className="pageHeader text-center">BRUNCH MENU</h1>
 
@@ -146,80 +105,87 @@ class Home extends React.Component {
                         </Row>
 
                         <Row>
-                              <Col>BLT</Col>
+                              <Col xl={5} className="menuItem">BLT</Col>
                               <Col>13</Col>
-                              <Col>FRENCH TOAST</Col>
+                              <Col xl={5} className="menuItem">FRENCH TOAST</Col>
                               <Col>14</Col>
                         </Row>
                         
                         <Row>
-                              <Col>...</Col>
+                              <Col xl={4} className="itemDescription">hickory-smoked bacon, tomato, lettuce, spicy mayo on whole grain bread</Col>
                               <Col></Col>
-                              <Col>...</Col>
+                              <Col xl={4} className="itemDescription">6 slices with powdered sugar, Canadian syrup, with side of eggs and bacon</Col>
                               <Col></Col>
                         </Row>
 
                         <Row>
-                              <Col>GRILLED CHEESE</Col>
+                              <Col xl={5} className="menuItem">GRILLED CHEESE</Col>
                               <Col>10</Col>
-                              <Col>PANCAKES</Col>
+                              <Col xl={5} className="menuItem">PANCAKES</Col>
                               <Col>16</Col>
                         </Row>
 
                         <Row>
-                              <Col>...</Col>
+                              <Col xl={4} className="itemDescription">artesinal cheese, grilled onions, house sauce, and black forest ham on whole grain bread</Col>
                               <Col></Col>
-                              <Col>...</Col>
+                              <Col xl={4} className="itemDescription">fluffy short stack with Canadian syrup, blueberries, strawberries, fruit cocktail side</Col>
                               <Col></Col>
                         </Row>
 
                         <Row>
-                              <Col>BREAKFAST BAGEL</Col>
+                              <Col xl={5} className="menuItem">BREAKFAST BAGEL</Col>
                               <Col>9</Col>
-                              <Col>EGGS BENEDICT</Col>
+                              <Col xl={5} className="menuItem">EGGS BENEDICT</Col>
                               <Col>15</Col>
                         </Row>
 
                         <Row>
-                              <Col>...</Col>
+                              <Col xl={4} className="itemDescription">poppy seed bagel, egg, capers, avocado, grilled onions, sausage, bell peppers, parmesan</Col>
                               <Col></Col>
-                              <Col>...</Col>
+                              <Col xl={4} className="itemDescription">english muffin, Canadian bacon, egg, hollandaise, capers</Col>
                               <Col></Col>
                         </Row>
 
                         <Row>
-                              <Col>VEGGIE</Col>
+                              <Col xl={5} className="menuItem">VEGGIE</Col>
                               <Col>10</Col>
-                              <Col>POKE BOWL</Col>
+                              <Col xl={5} className="menuItem">POKE BOWL</Col>
                               <Col>17</Col>
                         </Row>
 
                         <Row>
-                              <Col>...</Col>
+                              <Col xl={4} className="itemDescription">vegan patty, lettuce, red onion, tomato, house sauce</Col>
                               <Col></Col>
-                              <Col>...</Col>
+                              <Col xl={4} className="itemDescription">salmon + tuna chunks, spicy mayo, eel sauce, dragon aioli, mango, seaweed, white rice</Col>
                               <Col></Col>
                         </Row>
 
                         <Row>
+                              <Col xl={5} className="menuItem"></Col>
                               <Col></Col>
-                              <Col></Col>
-                              <Col>SALMON</Col>
+                              <Col xl={5} className="menuItem">SALMON</Col>
                               <Col>25</Col>
                         </Row>
 
                         <Row>
+                              <Col xl={4} className="itemDescription"></Col>
                               <Col></Col>
-                              <Col></Col>
-                              <Col>...</Col>
+                              <Col xl={4} className="itemDescription">roasted salmon flank, scalloped potatoes, house salad</Col>
                               <Col></Col>
                         </Row>
 
                         <Row>
+                              <Col xl={5} className="menuItem"></Col>
                               <Col></Col>
-                              <Col></Col>
-                              <Col>BRUNCH BURGER</Col>
+                              <Col xl={5} className="menuItem">BRUNCH BURGER</Col>
                               <Col>15</Col>
+                        </Row>
+
+                        <Row>
+                              <Col xl={4} className="itemDescription"></Col>
+                              <Col></Col>
+                              <Col xl={4} className="itemDescription">beef patty, fried egg, hickory-smoked bacon, avocado, tomato, house sauce</Col>
+                              <Col></Col>
                         </Row>
                   </Container>
                   </div>
@@ -236,80 +202,87 @@ class Home extends React.Component {
                         </Row>
 
                         <Row>
-                              <Col>CHEESECAKE</Col>
+                              <Col xl={5} className="menuItem">CHEESECAKE</Col>
                               <Col>7</Col>
-                              <Col>COFFEE</Col>
+                              <Col xl={5} className="menuItem">COFFEE</Col>
                               <Col>5</Col>
                         </Row>
                         
                         <Row>
-                              <Col>...</Col>
+                              <Col xl={4} className="itemDescription">creamy marbling, raspberries, whipped cream</Col>
                               <Col></Col>
-                              <Col>...</Col>
+                              <Col xl={4} className="itemDescription">black, latte, mocha, cappuccino, americano, espresso</Col>
                               <Col></Col>
                         </Row>
 
                         <Row>
-                              <Col>CINNAMON ROLLS</Col>
+                              <Col xl={5} className="menuItem">CINNAMON ROLLS</Col>
                               <Col>9</Col>
-                              <Col>TEA</Col>
+                              <Col xl={5} className="menuItem">TEA</Col>
                               <Col>3</Col>
                         </Row>
 
                         <Row>
-                              <Col>...</Col>
+                              <Col xl={4} className="itemDescription">fluffy with gooey lemon-glazing</Col>
                               <Col></Col>
-                              <Col>...</Col>
+                              <Col xl={4} className="itemDescription">black, green, oolang, peppermint, chai</Col>
                               <Col></Col>
                         </Row>
 
                         <Row>
-                              <Col>SUNDAE</Col>
+                              <Col xl={5} className="menuItem">SUNDAE</Col>
                               <Col>8</Col>
-                              <Col>FRUIT JUICE</Col>
+                              <Col xl={5} className="menuItem">FRUIT JUICE</Col>
                               <Col>3</Col>
                         </Row>
 
                         <Row>
-                              <Col>...</Col>
+                              <Col xl={4} className="itemDescription">natural vanilla ice cream, cookie crumble, bananas, strawberries, graham crackers</Col>
                               <Col></Col>
-                              <Col>...</Col>
+                              <Col xl={4} className="itemDescription">orange, peach, grape, tropical punch</Col>
                               <Col></Col>
                         </Row>
 
                         <Row>
+                              <Col xl={5} className="menuItem"></Col>
                               <Col></Col>
-                              <Col></Col>
-                              <Col>FOUNTAIN DRINK</Col>
+                              <Col xl={5} className="menuItem">FOUNTAIN DRINK</Col>
                               <Col>3</Col>
                         </Row>
 
                         <Row>
+                              <Col xl={4} className="itemDescription"></Col>
                               <Col></Col>
-                              <Col></Col>
-                              <Col>...</Col>
+                              <Col xl={4} className="itemDescription">coca cola, dr.pepper, fanta, sprite, a & w</Col>
                               <Col></Col>
                         </Row>
 
                         <Row>
+                              <Col xl={5} className="menuItem"></Col>
                               <Col></Col>
-                              <Col></Col>
-                              <Col>MIMOSA</Col>
+                              <Col xl={5} className="menuItem">MIMOSA</Col>
                               <Col>8</Col>
                         </Row>
 
                         <Row>
+                              <Col xl={4} className="itemDescription"></Col>
                               <Col></Col>
-                              <Col></Col>
-                              <Col>...</Col>
+                              <Col xl={4} className="itemDescription">orange juice + slice, champagne</Col>
                               <Col></Col>
                         </Row>
 
                         <Row>
+                              <Col xl={5} className="menuItem"></Col>
                               <Col></Col>
-                              <Col></Col>
-                              <Col>BLOODY MARY</Col>
+                              <Col xl={5} className="menuItem">BLOODY MARY</Col>
                               <Col>8</Col>
+                        </Row>
+
+                        <Row>
+                              <Col xl={4} className="itemDescription"></Col>
+                              <Col></Col>
+                              <Col xl={4} className="itemDescription">tomato juice, celery, hot sauce, garden herbs, lime, lemon, vodka</Col>
+                              <Col></Col>
                         </Row>
                   </Container>
                   </div>
