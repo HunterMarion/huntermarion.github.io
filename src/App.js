@@ -1,6 +1,5 @@
 import './App.scss';
 import "./fonts/lulo-clean-one.ttf";
-import Navigation from '../src/components/navigation';
 import Home from '../src/pages/Home';
 import Checkout from '../src/pages/Checkout';
 import Catering from '../src/pages/Catering';
