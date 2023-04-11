@@ -123,15 +123,21 @@
 
 
 
-// RESERVATIONS
+// RESERVATIONS MODAL
 
-.reserveHero {
-    width: auto;
-    height: 700px;
-    background-image: url(assets/cafe-entrance.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+.modalItem {
+    font-family: 'Avenir LT Std', sans-serif;
+    padding-bottom: 30px;
 }
+
+
+.findTable {
+        text-align: center;
+        padding: 20px;
+        font-family: "Lulo Clean Bold", sans-serif;
+}
+
+
 
 //CATERING
 #cateringHero {
