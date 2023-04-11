@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Col, Form, Modal, Nav, NavLink, Row } from 'react-bootstrap';
+import { Nav, NavLink } from 'react-bootstrap';
 
 //Create a container and then store the Header, vertical menu, and reservations button/socials in separate columns
 
