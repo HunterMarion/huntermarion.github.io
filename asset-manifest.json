@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1c924af1.css",
+    "main.js": "/static/js/main.d7fc117c.js",
+    "static/js/787.8c9d7775.chunk.js": "/static/js/787.8c9d7775.chunk.js",
+    "static/media/cafe-room.png": "/static/media/cafe-room.c185dafdeffafe8cb077.png",
+    "static/media/cafe-entrance.png": "/static/media/cafe-entrance.acdbf8db070bebfa0178.png",
+    "static/media/bowls.jpg": "/static/media/bowls.66cd57471a1d8514e73a.jpg",
+    "static/media/brunch-board.jpg": "/static/media/brunch-board.ac8f611fb2b5983c143a.jpg",
+    "static/media/Mimosa-on-a-Brunch-Table-scaled.jpg": "/static/media/Mimosa-on-a-Brunch-Table-scaled.8b3146633fcd7035150c.jpg",
+    "static/media/lulo-clean-outline.otf": "/static/media/lulo-clean-outline.188124daba3cba04dbdc.otf",
+    "static/media/lulo-clean-one.ttf": "/static/media/lulo-clean-one.2a49f464d2688a18cedd.ttf",
+    "static/media/lulo-clean-bold.ttf": "/static/media/lulo-clean-bold.cf6ce051896b18d3449b.ttf",
+    "static/media/logo.png": "/static/media/logo.00d18f61b483690adb39.png",
+    "index.html": "/index.html",
+    "main.1c924af1.css.map": "/static/css/main.1c924af1.css.map",
+    "main.d7fc117c.js.map": "/static/js/main.d7fc117c.js.map",
+    "787.8c9d7775.chunk.js.map": "/static/js/787.8c9d7775.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c924af1.css",
+    "static/js/main.d7fc117c.js"
+  ]
+}
