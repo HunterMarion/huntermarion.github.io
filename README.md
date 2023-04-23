@@ -2,8 +2,7 @@
 # Morning Snack
 
 ## A Project by Hunter Marion & Michelle Phillips
-### INEW 2320 - Comprehensive Software Design Project
-### Dallas College Spring 2023
+### INEW 2320 - Comprehensive Software Design Project, Dallas College Spring 2023
 
 For this project, we were tasked with designing our own project. We chose to design our project using [React](https://react.dev/). For styling, we chose to utilize [React Bootstrap](https://react-bootstrap.github.io/) and [Sass](https://sass-lang.com/). We used GitHub Projects to track our tasks for creating this project.
 
