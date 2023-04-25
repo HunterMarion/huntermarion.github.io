@@ -2,7 +2,7 @@
 @import "./variables";
 
 
-// HEADER
+// HEADER & NAVBAR
 
 .header {
     font-family: "Lulo Clean One", sans-serif;
@@ -141,6 +141,7 @@
 
 
 //CATERING
+
 #cateringHero {
      width: auto;
      height: 500px;
@@ -244,6 +245,7 @@ margin-bottom: 50px;
 
 
 //ORDER
+
 .orderHero {
      width: auto;
      height: 500px;
@@ -278,6 +280,7 @@ margin-bottom: 50px;
 }
 
 //ABOUT US
+
 .aboutUsHero {
      width: auto;
      height: 500px;
@@ -386,6 +389,7 @@ margin-bottom: 50px;
 
 
 // FOOTER
+
 .footerColor {
     background-color: $footer-bkg-color;
     color: $footer-txt-color;
