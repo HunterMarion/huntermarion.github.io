@@ -49,9 +49,20 @@
     padding: 40px;
 }
 
+.menuGallery {    
+   background-image: url(assets/menu-gallery.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   width: 100%;
+   height: 800px;
+}
+
+
 .pageHeader {
     font-family: "Lulo Clean Outline", sans-serif;
     font-size: 50px;
+    padding-top: 40px;
     padding-bottom: 10px;
 }
 
@@ -279,6 +290,8 @@ margin-bottom: 50px;
     margin-top: 20px;
 }
 
+
+
 //ABOUT US
 
 .aboutUsHero {
@@ -400,11 +413,15 @@ margin-bottom: 50px;
     font-size: 30px;
     padding-left: 30px;
     padding-top: 70px;
-    padding-bottom: 50px;
 }
 
-.footerResrvBtn {
+.footerNav {
     font-family: "Lulo Clean One", sans-serif;
+}
 
+.footerAddress {
+    font-family: "Avenir LT Std", sans-serif;
+    padding-left: 30px;
+    padding-bottom: 30px
 }
 
